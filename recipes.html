@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="assets/images/icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/recipes.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <nav class="navbar">
+    <div>
+      <a href="index.html" target="_blank"> Baking and Me </a>
+    </div>
+    <div><a href="myjourney.html" target="_blank"> My journey </a> </div>
+    <div> <a href="recipes.html" target="_blank"> Recipes </a> </div>
+    <div> <a href="techniques.html" target="_blank"> Techniques/hacks in the kitchen </a> </div>
+    <div> <a href="mamaspecials.html" target="_blank"> Mama's specials </a> </div>
+  </nav>
+  <header>
+    <h1> Search Recipes Here... </h1>
+    <input type="text" id="search-input" placeholder="recipe name">
+    <button class="search-btn    ">search</button>   
+  </header>
+  <main>
+    <section id="about">
+      <br>
+      <h2>Bisou de la Cheffe!</h2>
+      <p>Find and view delicious recipes!</p>
+    </section>
+    <section id="recipe-list" class="recipe-container"></section>
+    <section id="recipe-detail" class="hidden">
+      <h2 id="recipe-title"></h2>
+      <div class="recipe-content">
+        <div class="ingredients">
+          <h3>Ingredients:</h3>
+          <ul id="ingredient-list"></ul>
+        </div>
+        <div class="technique"> 
+        <h3>Techniques:</h3>
+          <p id="technique-text"></p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <div class="cards">
+    <div class="image-card">
+      <img src="https://images.unsplash.com/photo-1558301211-0d8c8ddee6ec?q=80&w=2512&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="300" height="350" alt="yummilicious sprinkle cake!">
+      <div class="overlap">
+        Sugary delight, coated with chocolate and sprinkles and topped with cherries and cream, this cake is sure to brighten up any day!
+      </div>
+    </div>
+    <div class="image-card">
+      <img src="https://images.unsplash.com/photo-1623334044303-241021148842?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="300" height="350" alt="delicious, warm croissants">
+      <div class="overlap">
+        Buttery and flaky, croissants like these will definitely warm you up on a chilly day!
+      </div>
+    </div>
+   <div class="image-card">
+      <img src="https://images.unsplash.com/photo-1588195547116-6a514230c4ff?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="300" height="350" alt="white and black cookies">
+      <div class="overlap">
+        Imagine on a warm night, you and your family biting into this sweet dessert. Yum! This sweet allowes you to dive deep into both sides.
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="custom-shape-divider-bottom-1743891423">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M600,112.77C268.63,112.77,0,65.52,0,7.23V120H1200V7.23C1200,65.52,931.37,112.77,600,112.77Z" class="shape-fill"></path>
+      </svg>
+    </div>
+    <div class="footer-content">
+      <div class="social-media"> <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+      <p> &copy;2025 Anaaiya's baking blog. ALL RIGHTS RESERVED! </p>
+    </div>
+  </footer>
+  <script src="assets/js/recipes.js">
+  </script>
+  <script src="https://kit.fontawesome.com/e9472486a9.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

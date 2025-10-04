@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+    font-family: "Lobster Two", serif;
+}
+.navbar {
+  width: 100%;
+  height:10rem;
+  background: hsla(166, 100%, 50%, 1);
+
+background: linear-gradient(90deg, hsla(166, 100%, 50%, 1) 44%, hsla(111, 100%, 50%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(166, 100%, 50%, 1) 44%, hsla(111, 100%, 50%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(166, 100%, 50%, 1) 44%, hsla(111, 100%, 50%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#00FFC3", endColorstr="#26FF00", GradientType=1 );
+  padding:1rem 0;
+  display:flex;
+  justify-content:space-between
+}
+.navbar a{
+  text-decoration:none;
+  font-size:1.62rem;
+}
+.navbar a:hover{
+  color:#ff0a54;
+  text-decoration:underline;
+}
+header{
+  min-width:100%;
+  background-color:#bd0052;
+}
+.social-media{
+  display:flex;
+  justify-content:space-around;
+  padding:1rem;
+}
+.social-media i{
+  font-size:2.5rem;
+}
+.footer-content p{
+  text-align:center;
+  padding:1rem;
+}
+.custom-shape-divider-bottom-1743891423{
+  background:#bde0fe
+}
+header{
+  display:flex;
+  flex-direction:column;
+  min-height:5rem;
+  justify-content:center;
+  align-items:center;
+  background:#bde0fe;
+  padding:1rem;
+  gap:1rem;
+}
+header button{
+  padding:.8rem 1.25rem;
+  background:linear-gradient(45deg,#C7EFCF,#99d98c,#90e0ef);
+  border-radius:10px;
+ border:none;
+  cursor:pointer;
+}
+header button:hover{
+  background:linear-gradient(90deg,#dda15e,#ffff3f);
+}
+.cards{
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  padding-top:2rem;
+}
+.image-card{
+  position:relative;
+  width:20rem;
+  margin:1rem;
+  background:lightpink;
+  border-radius:10px;
+}
+.image-card img{
+  width:100%;
+  border-radius:10px;
+}
+.overlap{ 
+  color:navy;
+  padding:1rem;
+  text-align:center;
+  opacity:.5;
+  transition:opacity .3s;
+}
+.image-card:hover .overlap{
+  opacity:1;
+}
+.image-card:hover{
+  transform:translateY(5px);
+}
+.recipe-container{
+  display:flex;
+  flex-wrap:wrap;
+  gap:1rem;
+  margin-top:1.25rem;
+}
+.recipe-card{
+  border:1px solid green;
+  padding:0.5rem;
+  text-align:center;
+  border-radius:10px;
+  box-shadow:2px 2px 8px rgba(0,0,0,0.1);
+}
+.hidden{
+  display:none;
+}

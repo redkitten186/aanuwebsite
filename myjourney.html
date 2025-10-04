@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="assets/images/icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/myjourney.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <nav class="navbar">
+    <div>
+      <a href="index.html" target="_blank"> Baking and Me </a>
+    </div>
+    <div><a href="myjourney.html" target="_blank"> My journey </a> </div>
+    <div> <a href="recipes.html" target="_blank"> Recipes </a> </div>
+    <div> <a href="techniques.html" target="_blank"> Techniques/hacks in the kitchen </a> </div>
+    <div> <a href="mamaspecials.html" target="_blank"> Mama's specials </a> </div>
+  </nav>
+  <about>
+    <div class="about">
+      <figure> <img src="https://png.pngtree.com/png-vector/20241031/ourlarge/pngtree-female-chef-logo-cartoon-png-image_14215309.png">
+        <figcaption> Me in the Kitchen! </figcaption>
+      </figure>
+    </div>
+    <p> Anaaiya, a 9-year-old American girl with Indian roots, has a bright smile and curious eyes behind her spectacles, and a deep passion for cooking that fills her heart with joy. From a young age, she was fascinated by the way simple ingredients could transform into delicious meals, watching her family prepare traditional Gujarati and Maharashtrian dishes with love and care. Inspired by those moments, Anaaiya now spends her free time experimenting in the kitchen, baking soft, golden-brown cookies, and perfecting the fluffiness of her cakes. She enjoys the science behind cooking just as much as the art, carefully measuring ingredients and trying new flavors. Whether it's kneading dough for fresh rotis or decorating cupcakes with colorful icing, Anaaiya finds immense happiness in every step. Her dream is to one day become a chef, blending traditional Indian flavors with modern creativity to bring smiles to people's faces through her food.
+    </p>
+  </about>
+  <br>
+  <section>
+    <div class="form-container">
+      <h2>Submit your own recipe!</h2>
+      <form action="get">
+        <div class="form-group">
+          <label for="Name"> Name: </label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email"> Email: </label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="phone"> Phone Number: <small>Format:123-456-7890</small> </label>
+          <input type="tem" id="phone" name="phone" patern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+        </div>
+        <div class="form-group">
+          <label for="recipename"> Recipe Name: </label>
+          <input type="text" id="recipename" name="recipename" required>
+        </div>
+        <div>
+          <div class="photoholder">
+            <div class="outline">
+              <img src="https://www.clipartmax.com/png/middle/92-925246_window-cleaning-placeholder-icon-png.png" alt="submit recipe photo!" width="200" height="500">
+              
+            </div>
+            <input type="file" id="file" accept=".png,.jpg"/>
+            <input type="button" value="submit a recipe!" class="styled">
+          </div>
+        </div>
+        <button> Submit </button>
+      </form>
+    </div>
+
+  </section>
+  <footer>
+    <div class="custom-shape-divider-bottom-1743891423">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M600,112.77C268.63,112.77,0,65.52,0,7.23V120H1200V7.23C1200,65.52,931.37,112.77,600,112.77Z" class="shape-fill"></path>
+    </svg>
+</div>
+    <div class="footer-content">
+      <div class="social-media"> <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+      <p> &copy;2025 Anaaiya's baking blog. ALL RIGHTS RESERVED! </p>
+    </div>
+  </footer>
+  <script src="https://kit.fontawesome.com/e9472486a9.js" crossorigin="anonymous"></script>
+  
+</body>
+
+</html>

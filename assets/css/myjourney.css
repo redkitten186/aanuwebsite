@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+    font-family: "Lobster Two", serif;
+}
+.navbar {
+  width: 100%;
+  height:10rem;
+  background: hsla(166, 100%, 50%, 1);
+
+background: linear-gradient(90deg, hsla(166, 100%, 50%, 1) 44%, hsla(111, 100%, 50%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(166, 100%, 50%, 1) 44%, hsla(111, 100%, 50%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(166, 100%, 50%, 1) 44%, hsla(111, 100%, 50%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#00FFC3", endColorstr="#26FF00", GradientType=1 );
+  padding:1rem 0;
+  display:flex;
+  justify-content:space-between
+}
+.navbar a{
+  text-decoration:none;
+  font-size:1.62rem;
+}
+.navbar a:hover{
+  color:#ff0a54;
+  text-decoration:underline;
+}
+.about{
+  background:linear-gradient(90deg,#A4F9C8,#41EAD4);
+}
+figure{
+  width:100%;
+  display:block;
+}
+img{
+  width:20rem; 
+  height:auto;
+  display:block;
+  margin-right:auto;
+  margin-left:auto;
+}
+figcaption{
+  text-align:center;
+  font-size:1.7rem;
+}
+.form-container{
+  background:linear-gradient(100deg, #DE639A, #90323D, #5E0B15)
+}
+button {
+  background-color:#FF7f51;
+padding:.7rem 1rem;
+  border:none;
+  border-radius:8px;
+  font-size:1.15rem;
+  cursor:pointer;
+}
+button:hover{
+  background-color:#c1121f;
+  color:#ffadad;
+  transform: translateY(5px);
+}
+h2{
+  background-color:#E7A977
+}
+p{
+  background:linear-gradient(90deg,#C5EDAA, #46ACC3)
+}
+form{
+  padding:1.25rem;
+  background-color:#f0DFAD;
+}
+.form-group{
+  margin-bottom:1rem;
+}
+label {
+  display:block;
+  margin-bottom:5px;
+  font-size:1.1rem;
+}
+input{
+  width:50%;
+  padding:0.5rem
+}
+.photoholder {
+  border:solid 4px #e500a4;
+  padding:2rem;
+  width:50%;
+}
+.outline{
+  border:dashed 1px #e2081c;
+  padding:.75rem
+}
+.outline img{
+  display:inline;
+}
+.styled{
+  margin-top:1rem;
+  font-size:1.5rem;
+  padding:.3rem;
+  border-radius:10px;
+  background:linear-gradient(#9CFFD9,#ffb3c6);
+    border-color:#80ff72;  
+}
+input[type="file"]
+{
+width:200%;
+}
+.social-media{
+  display:flex;
+  justify-content:space-around;
+  padding:1rem;
+}
+.social-media i{
+  font-size:2.5rem;
+}
+.footer-content p{
+  text-align:center;
+  padding:1rem;
+}
